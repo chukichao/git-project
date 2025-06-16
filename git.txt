@@ -1,5 +1,7 @@
 git init - инициализация git.
 
+git --version - версия.
+git config --list - конфигурация.
 
 git init
 git add README.md
@@ -12,3 +14,8 @@ git push -u origin main
 git remote add origin git@github.com:chukichao/git-project.git
 git branch -M main
 git push -u origin main
+
+
+git add .
+git commit -m "..."
+git push
